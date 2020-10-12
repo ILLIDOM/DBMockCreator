@@ -19,5 +19,7 @@ namespace StringWriter
         public string NodeMaxSIDDepth { get; set; }
         public string AreaID { get; set; }
         public string Protocol { get; set; }
+        public int LoopId { get; set; }
+        public string RegionCustom { get; set; }
     }
 }

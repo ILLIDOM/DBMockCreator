@@ -9,6 +9,8 @@ namespace StringWriter
         public string _id { get; set; }
         public string _rev { get; set; }
         public string _key { get; set; }
+        public string _from { get; set; }
+        public string _to { get; set; }
         public string LocalRouterID { get; set; }
         public string LocalIGPID { get; set; }
         public string RemoteRouterID { get; set; }
@@ -17,6 +19,7 @@ namespace StringWriter
         public int ASN { get; set; }
         public string FromInterfaceIP { get; set; }
         public string ToInterfaceIP { get; set; }
+        public int IGPMetric { get; set; }
         public int TEMetric { get; set; }
         public long MaxLinkBW { get; set; }
         public int unidir_link_delay { get; set; }
